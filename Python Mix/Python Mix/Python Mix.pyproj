@@ -22,7 +22,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Bots\botclean_large.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Bots\botclean_stoc.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Bots\bot_clean.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Bots\bot_part_obs.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Bots\o_click_mania.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Bots\save_princess.py">
