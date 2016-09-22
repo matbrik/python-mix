@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e62f6839-412b-4839-8130-468070fd76d3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Python_Mix.py</StartupFile>
+    <StartupFile>PythonApplication1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Bots\battleship1p.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Bots\battleship2p.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Bots\battleship2pv2.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Bots\botclean_large.py">
       <SubType>Code</SubType>
     </Compile>
@@ -32,6 +41,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Bots\bot_part_obs.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Bots\maze_escape.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Bots\o_click_mania.py">
@@ -51,11 +63,12 @@
     <Compile Include="module6.py" />
     <Compile Include="module7.py" />
     <Compile Include="partiallyobsevablecleaningbot.py" />
-    <Compile Include="PythonApplication1.py" />
+    <Compile Include="cftChallanges\knockknock.py" />
     <Compile Include="Python_Mix.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Bots\" />
+    <Folder Include="cftChallanges\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
