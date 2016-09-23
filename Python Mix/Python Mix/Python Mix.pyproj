@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="angr\re30.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Bots\battleship1p.py">
       <SubType>Code</SubType>
     </Compile>
@@ -69,6 +72,7 @@
   <ItemGroup>
     <Folder Include="Bots\" />
     <Folder Include="cftChallanges\" />
+    <Folder Include="angr\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
