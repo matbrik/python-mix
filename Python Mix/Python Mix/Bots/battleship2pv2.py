@@ -39,7 +39,7 @@ def next_move(N,board):
 
     print(str(mx)+" "+str(my))
     return
- """   
+"""   
     max=1
     count=0
     mx=[]

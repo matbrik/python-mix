@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e62f6839-412b-4839-8130-468070fd76d3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonApplication1.py</StartupFile>
+    <StartupFile>wuxiaproject\test4.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -58,6 +58,12 @@
     <Compile Include="Bots\save_princess2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="cftChallanges\crc.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cftChallanges\image.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="module1.py" />
     <Compile Include="module2.py" />
     <Compile Include="module3.py" />
@@ -68,11 +74,24 @@
     <Compile Include="partiallyobsevablecleaningbot.py" />
     <Compile Include="cftChallanges\knockknock.py" />
     <Compile Include="Python_Mix.py" />
+    <Compile Include="wuxiaproject\test1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wuxiaproject\test2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wuxiaproject\test3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wuxiaproject\test4.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Bots\" />
     <Folder Include="cftChallanges\" />
     <Folder Include="angr\" />
+    <Folder Include="wuxiaproject\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
