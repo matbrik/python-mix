@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e62f6839-412b-4839-8130-468070fd76d3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>wuxiaproject\test4.py</StartupFile>
+    <StartupFile>buoni\test2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="alg\bubblesort.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="angr\re30.py">
       <SubType>Code</SubType>
     </Compile>
@@ -58,6 +61,15 @@
     <Compile Include="Bots\save_princess2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="buoni\test1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="buoni\test2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="buoni\test3.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="cftChallanges\crc.py">
       <SubType>Code</SubType>
     </Compile>
@@ -74,6 +86,9 @@
     <Compile Include="partiallyobsevablecleaningbot.py" />
     <Compile Include="cftChallanges\knockknock.py" />
     <Compile Include="Python_Mix.py" />
+    <Compile Include="wuxiaproject\mtest1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="wuxiaproject\test1.py">
       <SubType>Code</SubType>
     </Compile>
@@ -86,11 +101,17 @@
     <Compile Include="wuxiaproject\test4.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="youtube+music\test1.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Bots\" />
     <Folder Include="cftChallanges\" />
     <Folder Include="angr\" />
+    <Folder Include="alg\" />
+    <Folder Include="buoni\" />
+    <Folder Include="youtube+music\" />
     <Folder Include="wuxiaproject\" />
   </ItemGroup>
   <PropertyGroup>
