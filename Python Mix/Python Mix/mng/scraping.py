@@ -80,7 +80,7 @@ def create_page(address, name, chapter):
         t.decompose()
     class_to_delete="col-md-12 col-top clearfix chapter-toolbox","col-md-12 col-top clearfix","header","footer","footer","col-lg-4 col-md-4 col-sm-4 col-xs-4","col-lg-4 col-md-4 col-sm-4 col-xs-4","col-lg-4 col-md-4 col-sm-4 col-xs-4"
     for c in class_to_delete:
-        t=soup.find("div",class_=c)
+        t=soup.find("div",class_=c) 
         t.decompose()
     main_page=soup
     try:
