@@ -22,7 +22,7 @@ def request(data_e, data_r, taglio, div):
     # follow second link with element text matching regular expression
     #response1 = br.follow_link(text_regex=r"cheese\s*shop", nr=1)
     assert br.viewing_html()
-
+    
     
     
     br.select_form(name="ValoreRendimentoBuonoFruttiferoForm")

@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e62f6839-412b-4839-8130-468070fd76d3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>buoni\test2.py</StartupFile>
+    <StartupFile>mng\mainpart.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -76,6 +76,24 @@
     <Compile Include="cftChallanges\image.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="mng\checkwebsite.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mng\iointerface.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mng\mainpart.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mng\telegramdata.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mng\telegram_test.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mng\scraping.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="module1.py" />
     <Compile Include="module2.py" />
     <Compile Include="module3.py" />
@@ -86,6 +104,9 @@
     <Compile Include="partiallyobsevablecleaningbot.py" />
     <Compile Include="cftChallanges\knockknock.py" />
     <Compile Include="Python_Mix.py" />
+    <Compile Include="telegram\test1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="wuxiaproject\mtest1.py">
       <SubType>Code</SubType>
     </Compile>
@@ -111,6 +132,8 @@
     <Folder Include="angr\" />
     <Folder Include="alg\" />
     <Folder Include="buoni\" />
+    <Folder Include="mng\" />
+    <Folder Include="telegram\" />
     <Folder Include="youtube+music\" />
     <Folder Include="wuxiaproject\" />
   </ItemGroup>
