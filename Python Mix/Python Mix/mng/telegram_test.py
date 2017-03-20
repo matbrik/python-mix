@@ -11,7 +11,6 @@ num=1
 URL, NUMBER, CONF= range(3)
 
 
-mtoken="346510765:AAHMvPYEZ2JSKD0-mnHe1ngAJYFXROrd1TQ"
 """
 def start(bot, update):
     bot.sendMessage(chat_id=update.message.chat_id, text=name)
