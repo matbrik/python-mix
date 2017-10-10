@@ -6,7 +6,7 @@ import unidecode
 from bs4 import BeautifulSoup
 
 
-full_url="http://m.wuxiaworld.com/wmw-index/wmw-chapter-1045/"
+full_url="http://m.wuxiaworld.com/mga-index/mga-chapter-2117/"
 
 
 
